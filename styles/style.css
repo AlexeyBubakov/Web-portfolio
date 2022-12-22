@@ -1040,6 +1040,22 @@ div.break-line:nth-child(8) {
     margin-top: 400px;
 }
 
+.order-button {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    width: 169px !important;
+    height: 38px !important;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.order-button:hover {
+    color: orange;
+    background: black
+}
+
 .circleActive {
     width: 40px;
     height: 40px;
