@@ -977,51 +977,79 @@ div.break-line:nth-child(8) {
 }
 
 .before-dollar::before {
-content: url(https://portfo-project.vercel.app/static/images/checked-fead2061256261a390fb3ffdbf8e7a5c.png);
+    content: url(https://portfo-project.vercel.app/static/images/checked-fead2061256261a390fb3ffdbf8e7a5c.png);
 }
 
 
-.before-dollar, .before-cross {
+.before-dollar,
+.before-cross {
     padding-right: 140px;
     padding-top: 20px;
     border-bottom: 1px solid rgb(250, 250, 250);
     padding-left: 100px;
     width: 100%;
     text-align: left;
-  }
+}
 
-  
-  .before-cross::before {
+
+.before-cross::before {
     content: url(https://portfo-project.vercel.app/static/images/close-006b851c2fff3bb518ad047b698407f0.png);
-    }
+}
 
-    @media screen and (max-width: 929px)  {
+@media screen and (max-width: 929px) {
 
-        .before-dollar, .before-cross {
-            
-            padding-left: 10px;
-            
-          }
+    .before-dollar,
+    .before-cross {
 
-          .pricePlansContainer {
-            
-            gap: 5px;
-        
-        }
-
-        .pricePlansContainer div {
-            
-            padding-left: 0px;
-        
-        }
-
-        .left-menu, .right-menu {
-         display: none;
-        }
-
-        .main-menu{
-         padding-left: 0px;
-         padding-right: 0px;
-        }
+        padding-left: 10px;
 
     }
+
+    .pricePlansContainer {
+
+        gap: 5px;
+
+    }
+
+    .pricePlansContainer div {
+
+        padding-left: 0px;
+
+    }
+
+    .left-menu,
+    .right-menu {
+        display: none;
+    }
+
+    .main-menu {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+.svgWrapper {
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.menuWrapper {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.circleActive {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #f2ede4;
+    margin-bottom: 30px;
+    transition: 2s;
+}
+
+.circleActive:hover {
+    background: orange;
+}
