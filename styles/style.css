@@ -34,7 +34,7 @@ a {
     }
 
     .myImage-container {
-        display: none;
+        display: none!important;
     }
 
     .my-services {
