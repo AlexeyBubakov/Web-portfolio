@@ -8,7 +8,7 @@ a {
 
 }
 
-@media screen and (min-width:390px) {
+@media screen and (max-width:390px) {
     .pricePlansContainer {
         height: 2100px;
         gap: 20px;
