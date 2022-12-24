@@ -8,7 +8,7 @@ a {
 
 }
 
-@media screen and (max-width:425px) {
+ @media screen and (max-width:425px) {   /*Code for all smartphone screens  */
     .pricePlansContainer {
         height: 2100px;
         gap: 20px;
