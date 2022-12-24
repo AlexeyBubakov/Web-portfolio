@@ -27,18 +27,27 @@ a {
     }
 
     .banner {
-        margin-top: -11px!important;
-        margin-bottom: 0px!important;
+        margin-top: -11px !important;
+        margin-bottom: 0px !important;
         height: 64%;
         border: 5px solid #8C3FBF;
     }
 
     .myImage-container {
-        display: none!important;
+        display: none !important;
     }
 
     .my-services {
         border-top: 5px solid #8C3FBF;
+    }
+
+    .flip-card-wrapper {
+        flex-direction: column;
+    }
+
+    .flip-card {
+        width: 100%;
+
     }
 }
 
