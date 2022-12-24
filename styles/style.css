@@ -34,8 +34,12 @@ a {
         animation: blink 1s;
         animation-iteration-count: infinite;
     }
-    
-    @keyframes blink { 50% { border-color:#fff ; }  }
+
+    @keyframes blink {
+        50% {
+            border-color: #fff;
+        }
+    }
 
     .myImage-container {
         display: none !important;
@@ -55,11 +59,11 @@ a {
     }
 
     .pricePlansContainer div {
-        width: 100%!important;
+        width: 100% !important;
     }
 
     .orangeOffer {
-        height: 10%!important;
+        height: 10% !important;
     }
 
 }
