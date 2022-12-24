@@ -28,7 +28,7 @@ a {
 
     .banner {
         margin-top: -11px!important;
-        margin-bottom: 0px;
+        margin-bottom: 0px!important;
         height: 64%;
         border: 5px solid #8C3FBF;
     }
