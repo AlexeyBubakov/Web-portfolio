@@ -46,9 +46,18 @@ a {
     }
 
     .flip-card {
-        width: 100%!important;
+        width: 100% !important;
 
     }
+
+    .pricePlansContainer div {
+        width: 100%;
+    }
+
+    .orangeOffer {
+        height: 10%;
+    }
+
 }
 
 /*24px  600weight font  */
