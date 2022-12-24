@@ -51,11 +51,11 @@ a {
     }
 
     .pricePlansContainer div {
-        width: 100%;
+        width: 100%!important;
     }
 
     .orangeOffer {
-        height: 10%;
+        height: 10%!important;
     }
 
 }
