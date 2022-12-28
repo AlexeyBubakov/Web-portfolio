@@ -1129,9 +1129,18 @@ div.break-line:nth-child(8) {
     transition: 20ms;
 }
 
-.circleActive:hover {
+.circleActive:hover  {
     background: orange;
 }
+ 
+.button-tag{
+display:none;
+}
+
+.button-url span:hover {
+display: inline;
+}
+
 
 
 /*Iphone 13 screen 390px width styles  */
