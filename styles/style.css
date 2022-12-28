@@ -1126,7 +1126,7 @@ div.break-line:nth-child(8) {
     border-radius: 50%;
     background: #f2ede4;
     margin-bottom: 30px;
-    transition: 2s;
+    transition: 20ms;
 }
 
 .circleActive:hover {
