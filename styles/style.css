@@ -1140,6 +1140,8 @@ div.break-line:nth-child(8) {
 
 .button-tag {
     visibility: hidden;
+    background: black;
+    color: white;
 }
 
 .menuWrapper a:hover .button-tag {
