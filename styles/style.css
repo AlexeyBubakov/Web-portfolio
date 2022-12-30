@@ -1151,6 +1151,12 @@ div.break-line:nth-child(8) {
     min-width: 39vw;
 }
 
+.copyright{
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+background: white;
+}
 
 
 
